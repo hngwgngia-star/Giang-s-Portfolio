@@ -1,5 +1,11 @@
 import React from 'react';
 
+const imageModules = import.meta.glob('/src/assets/images/**/*.{png,jpg,jpeg,svg,mp4}', { eager: true, as: 'url' }) as Record<string, string>;
+
+const resolveAsset = (src: string) => {
+    return imageModules[src] || src;
+};
+
 const renderTextWithLinks = (text: string) => {
     const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
     const parts = [];
@@ -169,7 +175,7 @@ export default function SplitDashboard({ data, index }: { data: any, index: numb
                                             if (imgSrc) {
                                                 return (
                                                     <div key={lIdx} className="mt-2 mb-4 flex justify-center">
-                                                        <img src={imgSrc} alt="Minh hoạ" className="max-w-full h-auto object-contain border border-graphite/20 rounded shadow-sm" />
+                                                        <img src={resolveAsset(imgSrc)} alt="Minh hoạ" className="max-w-full h-auto object-contain border border-graphite/20 rounded shadow-sm" />
                                                     </div>
                                                 );
                                             }
@@ -186,7 +192,7 @@ export default function SplitDashboard({ data, index }: { data: any, index: numb
                                                             playsInline 
                                                             className="w-full h-auto object-contain"
                                                         >
-                                                            <source src={videoSrc} type={videoSrc.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
+                                                            <source src={resolveAsset(videoSrc)} type={videoSrc.endsWith('.webm') ? 'video/webm' : 'video/mp4'} />
                                                             Trình duyệt của bạn không hỗ trợ thẻ video.
                                                         </video>
                                                     </div>
@@ -238,7 +244,7 @@ export default function SplitDashboard({ data, index }: { data: any, index: numb
                                 <div key={idx} className="border-doodle bg-white p-3 shadow-solid transform transition duration-300 hover:scale-[1.02]">
                                     <div className="bg-crosshatch w-full overflow-hidden relative border-doodle border-1 flex items-center justify-center text-center">
                                         <img 
-                                            src={imgSrc} 
+                                            src={resolveAsset(imgSrc)} 
                                             alt={`Minh họa ${idx + 1}`} 
                                             className="object-contain w-full h-auto" 
                                             onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='14' fill='%239ca3af'%3EKhu v%E1%BB%B1c hi%E1%BB%83n th%E1%BB%8B %E1%BA%A3nh%3C/text%3E%3C/svg%3E"; }} 
@@ -281,7 +287,7 @@ export default function SplitDashboard({ data, index }: { data: any, index: numb
                 {/* Polar style wrapper */}
                 <div className="bg-crosshatch w-full overflow-hidden relative border-doodle border-1 flex items-center justify-center text-center group cursor-pointer bg-white">
                    <img 
-                      src={imgSrc} 
+                      src={resolveAsset(imgSrc)} 
                       alt="Visual Asset" 
                       className="object-contain w-full h-auto" 
                       onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='14' fill='%239ca3af'%3E%E1%BA%A2nh%3C/text%3E%3C/svg%3E"; e.currentTarget.className = "w-full h-full object-contain"; }} 
