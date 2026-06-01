@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-artisan: #FAF6EE;
+  --color-scrapbook: #FFFFFF;
+  --color-graphite: #1A1A1A;
+  --color-marker: #FF4B4B;
+
+  --font-heading: Georgia, serif;
+  --font-body: Verdana, sans-serif;
+}
+
+@layer utilities {
+  .border-doodle {
+    border: 2px solid var(--color-graphite);
+    border-radius: 20px 12px 15px 22px / 12px 25px 14px 20px;
+    box-shadow: 6px 6px 0px var(--color-graphite);
+    background-color: var(--color-scrapbook);
+    transition: transform 0.2s;
+  }
+  
+  .shadow-solid {
+    box-shadow: 6px 6px 0px var(--color-graphite);
+  }
+  
+  .marker-highlight {
+    background: linear-gradient(180deg, transparent 60%, rgba(255,75,75,0.2) 60%);
+    display: inline-block;
+    padding: 0 4px;
+  }
+
+  .double-line {
+    border-bottom: 3px double var(--color-graphite);
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+  }
+
+  .bg-crosshatch {
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(26, 26, 26, 0.1) 5px, rgba(26, 26, 26, 0.1) 6px), repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(26, 26, 26, 0.1) 5px, rgba(26, 26, 26, 0.1) 6px);
+  }
+
+  .scribble-bg {
+    background-image: radial-gradient(var(--color-graphite) 0.5px, transparent 0.5px);
+    background-size: 10px 10px;
+    opacity: 0.05;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .hover-vibrate:hover {
+    animation: vibrate 0.3s linear infinite both;
+  }
+}
+
+@keyframes vibrate {
+  0% { transform: translate(0) rotate(-0.5deg); }
+  20% { transform: translate(-1px, 1px) rotate(0.5deg); }
+  40% { transform: translate(-1px, -1px) rotate(-0.5deg); }
+  60% { transform: translate(1px, 1px) rotate(0.5deg); }
+  80% { transform: translate(1px, -1px) rotate(-0.5deg); }
+  100% { transform: translate(0) rotate(0); }
+}
+
+body {
+  background-color: var(--color-artisan);
+  color: var(--color-graphite);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 900;
+}
+
+.doodle-line {
+  height: 4px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--color-graphite),
+    var(--color-graphite) 10px,
+    transparent 10px,
+    transparent 12px
+  );
+  border-radius: 5px;
+  transform: rotate(-0.5deg);
+}
+
+.doodle-line-2 {
+  height: 2px;
+  background: var(--color-graphite);
+  border-radius: 5px;
+  transform: rotate(0.5deg);
+  margin-top: -2px;
+}

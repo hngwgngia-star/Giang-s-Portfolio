@@ -1,0 +1,140 @@
+{
+  "slides": [
+    {
+      "id": "s1",
+      "layout": "Split Dashboard",
+      "primaryTitle": "MỤC 1: TRANG GIỚI THIỆU (HOMEPAGE)",
+      "secondaryTitle": "Thông Tin Cá Nhân, Định Hướng Phát Triển & Mục Tiêu Của Portfolio Kỹ Thuật Số",
+      "body": [
+        "Là một sinh viên Sư phạm Vật lí tại UEd-VNU trong kỷ nguyên số, mục tiêu của em là làm chủ các công cụ công nghệ hiện đại để biến những kiến thức khoa học trừu tượng thành trải nghiệm trực quan cho học sinh. Em định hướng sẽ tích hợp sâu sắc các giải pháp AI tạo sinh, mô hình học tập siêu nhỏ (Nano-learning) và mô hình giảng dạy thích ứng vào chương trình giáo dục phổ thông mới, nhằm tối ưu hóa hiệu suất dạy học và kích thích tư duy sáng tạo của thế hệ trẻ.",
+        "Mục tiêu của Portfolio kỹ thuật số này:",
+        "Portfolio này được xây dựng nhằm thể hiện các kỹ năng số đã học, đồng thời là không gian lưu trữ trực quan toàn bộ tiến trình học tập, nghiên cứu và thực hành trong khuôn khổ học phần Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo. Đây là minh chứng cho năng lực tự học, quản trị dữ liệu và cam kết ứng dụng công nghệ có trách nhiệm để dễ dàng truy cập, chia sẻ sản phẩm cá nhân."
+      ],
+      "highlights": [
+        "Họ và tên: Trương Thị Hương Giang",
+        "Mã số sinh viên: 25010050",
+        "Ngành học: Sư phạm Vật lí",
+        "Trường: Trường Đại học Giáo dục - Đại học Quốc gia Hà Nội (UEd-VNU)",
+        "Sở thích: Nghe nhạc, du lịch, sáng tạo nội dung thị giác."
+      ],
+      "images": {
+        "portrait": "./assets/s1_portrait_01.png",
+        "logo": "./assets/s1_logo_vnued_02.png"
+      }
+    },
+    {
+      "id": "s2",
+      "layout": "Split Dashboard",
+      "primaryTitle": "MỤC 2: TRANG DỰ ÁN (PROJECTS)",
+      "secondaryTitle": "Tập hợp các bài tập đã hoàn thành",
+      "body": [
+        "Phần này tổng hợp các sản phẩm thực hành xuyên suốt học phần, minh chứng cho việc ứng dụng công nghệ thông tin trong các tác vụ giáo dục: từ quản lý dữ liệu, khai thác thông tin, sử dụng công cụ AI, đến thao tác làm việc nhóm và thiết kế học liệu số."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s3",
+      "layout": "Split Dashboard",
+      "primaryTitle": "📂 Bài 1 — Thao tác cơ bản với tệp tin và thư mục (Mục 1.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Làm chủ các thao tác quản trị dữ liệu căn bản trên hệ điều hành (File Explorer) bao gồm khởi tạo, đổi tên, sao chép, điều phối và dọn dẹp bộ nhớ hệ thống.\n   • Xây dựng tư duy sắp xếp dữ liệu theo sơ đồ cây khoa học nhằm tối ưu hóa thời gian làm việc và ngăn ngừa thất lạc học liệu số.",
+        "2. Tóm tắt quá trình thực hiện\nQuá trình thực hành được triển khai tuần tự, nghiêm ngặt theo các bước kỹ thuật số sau:\n   • Mốc 1 - Khởi động và định vị: Sử dụng tổ hợp phím tắt nhanh Windows + E để kích hoạt trình quản lý hệ thống File Explorer. Tại cột điều hướng bên trái, truy cập vào This PC và lựa chọn một phân vùng ổ đĩa không chứa hệ điều hành (ví dụ: ổ D: hoặc E:) nhằm tối ưu hóa độ an toàn cho dữ liệu. Trường hợp máy chỉ có một phân vùng duy nhất, tiến hành chọn thư mục Documents.\n   • Mốc 2 - Thiết lập thư mục gốc: Thực hiện lệnh nhấp chuột phải vào khoảng trống, chọn New -> Folder. Tiến hành đặt tên thư mục theo đúng cấu trúc định danh cá nhân: ThucHanh_TruongThiHuongGiang_ để đảm bảo tính đồng bộ. Nhấn Enter và nhấp đúp chuột để tiến vào không gian làm việc vừa tạo.\n   • Mốc 3 - Tạo lập và hiệu chỉnh tệp tin văn bản: Nhấp chuột phải vào khoảng trống bên trong thư mục gốc, chọn New -> Text Document và đặt tên ban đầu là GhiChu.txt. Tiếp tục sử dụng lệnh Rename (hoặc phím tắt F2) để đổi tên tệp thành GhiChuQuanTrong.txt nhằm tăng tính gợi nhớ và xác định rõ giá trị của tài liệu.\n   • Mốc 4 - Phân cấp thư mục con: Nhấp chuột phải, chọn New -> Folder để tạo lập một thư mục nhánh nằm ngay bên trong thư mục gốc với tên gọi TaiLieu, hoàn thiện cấu trúc lưu trữ phân cấp.\n   • Mốc 5 - Điều chuyển và đồng bộ dữ liệu nâng cao: \n       o Thao tác Sao chép (Copy & Paste): Click chuột phải vào tệp GhiChuQuanTrong.txt, chọn Copy (hoặc nhấn Ctrl + C). Di chuyển vào thư mục con TaiLieu, nhấp chuột phải vào khoảng trống và chọn Paste (hoặc nhấn Ctrl + V) để tạo một bản sao lưu dữ liệu hoàn chỉnh.\n       o Thao tác Di chuyển (Cut & Paste): Quay trở lại thư mục gốc ban đầu, tạo một tệp mới có tên DiChuyen.txt. Thực hiện lệnh Cut (Ctrl + X) trên tệp này, sau đó truy cập lại vào thư mục con TaiLieu và chọn Paste (Ctrl + V). Kết quả ghi nhận tệp tin đã được dịch chuyển hoàn toàn sang vị trí mới và không còn tồn tại ở vị trí gốc.\n   • Mốc 6 - Tối ưu hóa dung lượng: Tiến hành nhấp chuột phải vào các tệp tin nháp hoặc tệp dữ liệu không còn giá trị sử dụng trong quá trình thử nghiệm, chọn Delete để dọn dẹp bộ nhớ, đảm bảo cây thư mục cuối cùng được tinh gọn và chuẩn hóa.",
+        "3. Sản phẩm & Minh chứng\n   • Đường liên kết minh chứng:\n         o [Bài tập 1.1.4.Thao tác cơ bản với tệp tin và thư mục](https://byvn.net/sN2x)\n         o [Báo cáo kết quả tổ chức và quản lý dữ liệu cá nhân](https://byvn.net/fZr1)\n   • Quy tắc đặt tên tệp áp dụng: Tệp tin được tổ chức nhất quán theo định dạng cấu trúc: [Năm/Học kỳ] > [Tên môn/Chủ đề] > [Tên nội dung cụ thể].\n   • Ví dụ cấu trúc cây thư mục:\n         o Thư mục gốc chính: Tài liệu\n              📁 Năm nhất (Trục lưu trữ học tập cốt lõi của năm học đầu tiên)\n                    📁 Học kỳ 1 (Lưu trữ các học phần đại cương đã hoàn thành)\n                    📁 Học kỳ 2 (Không gian số tập trung cho các học phần chuyên ngành hiện tại)\n                            📁 Hoá học đại cương 1 (Tài liệu, giáo trình, bài tập môn hoá học đại cương 1)\n   • Minh chứng hình ảnh:",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Thao tác tệp và quản trị dữ liệu khoa học là kỹ năng số nền tảng của một giáo viên hiện đại. Việc tổ chức học liệu ngăn nắp giúp người thầy quản lý hàng trăm giáo án, bài giảng điện tử, video mô phỏng và hồ sơ học sinh một cách hệ thống, tránh tối đa rủi ro mất mát dữ liệu khi thiết bị gặp sự cố.\n   • Bài học rút ra: Sắp xếp dữ liệu gọn gàng ngay từ đầu giúp giảm thiểu thời gian tìm kiếm tài liệu lên đến 40%, từ đó tối ưu hóa hiệu suất chuẩn bị bài lên lớp."
+      ],
+      "highlights": [],
+      "images": {
+        "img1": "/src/assets/images/regenerated_image_1780213138183.png",
+        "img2": "/src/assets/images/regenerated_image_1780197036784.png",
+        "img3": "/src/assets/images/regenerated_image_1780157746102.png",
+        "img4": "/src/assets/images/regenerated_image_1780157684033.png"
+      }
+    },
+    {
+      "id": "s4",
+      "layout": "Split Dashboard",
+      "primaryTitle": "🔍 Bài 2 — Tìm kiếm và đánh giá thông tin học thuật (Mục 2.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Ứng dụng thành thạo các toán tử nâng cao trên Google Scholar để định vị chính xác các công trình nghiên cứu khoa học.\n   • Vận dụng bộ tiêu chuẩn kiểm định khoa học quốc tế (The CRAAP test) để sàng lọc các nguồn dữ liệu chất lượng cao phục vụ nghiên cứu sư phạm.",
+        "2. Tóm tắt quá trình thực hiện \n   • Xác định chủ đề: Lựa chọn chủ đề “Ứng dụng các công nghệ mô phỏng và AI trong giảng dạy các môn KHTN ở các trường THCS và THPT” với giới hạn thời gian từ năm 2019 đến nay để bắt kịp các xu hướng EdTech mới nhất.\n   • Quy trình thực hiện:\n   • Sử dụng linh hoạt hệ thống toán tử phức hợp trên Google Scholar để tiếp cận bài báo gốc như sau:\n\"mô phỏng\" AND \"trí tuệ nhân tạo\" AND site:edu.vn filetype:pdf -intitle:\"kỷ yếu\"\n         o Phân tích chiến lược câu lệnh: Toán tử \"\" ép hệ thống tìm chính xác cụm từ khóa; toán tử logic AND liên kết đa chiều giữa công nghệ mô phỏng và AI; toán tử tên miền site:edu.vn khoanh vùng các bài báo từ các trường đại học, viện nghiên cứu uy tín tại Việt Nam; toán tử định dạng filetype:pdf lọc các báo cáo khoa học chính thống; toán tử loại trừ -intitle: triệt tiêu các bài viết tản mác thuộc các kỷ yếu chưa qua phản biện khoa học nghiêm ngặt.\n   • Tiến hành bóc tách thông tin, đối chiếu 5 tiêu chí của CRAAP (Currency, Relevance, Authority, Accuracy, Purpose) để lập bảng thẩm định dữ liệu khoa học nghiêm túc.",
+        "3. Sản phẩm & Minh chứng\n[IMAGE: /src/assets/images/assets/bang_craap.png]\n   • Đường liên kết minh chứng: [Bài tập 2.2.4. Báo cáo tìm kiếm và đánh giá thông tin học thuật](https://byvn.net/a5KR)",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Năng lực thẩm định tài liệu bằng CRAAP test giúp giáo viên xây dựng bài giảng vững chắc về mặt lý luận khoa học, tránh đưa những kiến thức sai lệch, thiếu tính sư phạm hoặc lỗi thời vào chương trình dạy học phổ thông.\n   • Bài học rút ra: Một công trình nghiên cứu công nghệ giáo dục có giá trị không chỉ cần công nghệ hiện đại mà cốt lõi phải có dữ liệu thực nghiệm sư phạm minh chứng rõ ràng tính hiệu quả đối với nhận thức của học sinh."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s5",
+      "layout": "Split Dashboard",
+      "primaryTitle": "🤖 Bài 3 — Viết Prompt hiệu quả cho các tác vụ học tập (Mục 3.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Khảo sát và làm chủ năng lực xử lý ngôn ngữ tự nhiên của Google Gemini thông qua việc thiết kế câu lệnh (Prompt Engineering) theo 3 cấp độ tăng dần.\n   • Ứng dụng công cụ AI để giải quyết các tác vụ giáo dục phức tạp, yêu cầu tính phân hóa và tư duy sư phạm cao.",
+        "2. Tóm tắt quá trình thực hiện\nEm đã tiến hành thử nghiệm song song 3 phiên bản câu lệnh (Cơ bản - Cải tiến - Nâng cao) trên cùng một hệ thống Google Gemini để đánh giá sự thay đổi chất lượng đầu ra qua 3 tác vụ học tập trọng tâm: Tóm tắt tài liệu Vật lí hạt nhân; Giải thích khái niệm \"Giới hạn\" (Limit) trong Toán giải tích; Thiết kế bộ câu hỏi trắc nghiệm chương \"Cảm ứng điện từ\".",
+        "3. Sản phẩm & Minh chứng\n[IMAGE: /src/assets/images/assets/bang_prompt.png]\n   • Đường liên kết minh chứng: [Bài tập 2.3.4. Báo cáo thực hành viết prompt với Gemini AI](https://byvn.net/8AYG)",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Việc ứng dụng kỹ thuật Feynman và ẩn dụ hóa \"tiến sát vạch đích\" đóng vai trò là một \"mỏ neo nhận thức\" giúp học sinh làm rõ bản chất Giải tích toán học. Đồng thời, việc ép AI xây dựng cấu trúc phân tích nhiễu trắc nghiệm giúp giáo viên nâng cao năng lực khảo thí.\n   • Bài học rút ra: Cấu trúc prompt càng chi tiết và có tính logic (phân chia vai trò, bối cảnh, các bước tư duy chuỗi CoT) thì kết quả phản hồi của AI càng sắc sảo, có chiều sâu ứng dụng cao."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s6",
+      "layout": "Split Dashboard",
+      "primaryTitle": "🤝 Bài 4 — Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm (Mục 4.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Lập kế hoạch, điều phối nhân sự và quản trị hệ thống tài nguyên số tập trung khi triển khai dự án giáo dục nhóm thông qua hệ sinh thái công cụ trực tuyến.",
+        "2. Tóm tắt quá trình thực hiện \nVới vai trò là Trưởng nhóm điều phối dự án nhóm “AI trong giáo dục vật lí: biến những điều trừu tượng thành trực quan”, em đã triển khai nhật ký số gồm các đầu việc:\n   • Thiết lập hệ sinh thái công cụ: Sử dụng Google Sheets để lập bảng tiến độ công việc chi tiết, Google Docs để cả nhóm cùng biên soạn kịch bản chung theo thời gian thực, Google Drive để lưu trữ tài nguyên tập trung, Zalo để giao tiếp nhanh và Google Meet để họp trực tuyến định kỳ.\n   • Quản trị nhân sự và đồng bộ dữ liệu: Quy định toàn bộ thành viên sử dụng tên thật và ảnh đại diện nghiêm túc. Thiết lập thư mục lưu trữ tập trung tên “Các SP của Bài tập nhó...” trên Google Drive. Áp dụng quy tắc đặt tên file nghiêm ngặt gắn liền với quyền sở hữu nội dung của từng thành viên (Trương Thị Hương Giang phụ trách kịch bản tổng thể; các phần nội dung cấu phần do các thành viên Vũ Suốt, Nhã Mỹ, Tài Mạnh, Anh Trần nắm giữ quyền kiểm soát lịch sử chỉnh sửa).",
+        "3. Sản phẩm & Minh chứng\n[IMAGE: /src/assets/images/assets/gg_sheets.png]\n[IMAGE: /src/assets/images/assets/zalo.png]\n[IMAGE: /src/assets/images/assets/gg_meet.png]\n   • Đường liên kết minh chứng: [Bài tập 3.4.4. Báo cáo cá nhân về sử dụng công cụ hợp tác trực tuyến trong dự án nhóm](https://byvn.net/jltB)",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Kỹ năng quản trị nhóm trực tuyến giúp người giáo viên tương lai sẵn sàng thích ứng với các hình thức giáo dục từ xa, kết nối học sinh và đồng nghiệp trong môi trường ảo một cách chuyên nghiệp và minh bạch.\n   • Bài học rút ra từ việc xử lý 3 thách thức quản trị thực tế:\n         1. Hiện tượng trôi file trên Zalo: Khắc phục triệt để bằng quy định bắt buộc 100% tệp tài liệu quan trọng sau khi thảo luận phải được upload ngay lập tức lên Google Drive nhóm.\n         2. Khó trao đổi ký hiệu Vật lí phức tạp qua chat: Khắc phục bằng cách chuyển hướng nội dung vào các buổi họp Google Meet và tận dụng tính năng chia sẻ màn hình để thống nhất nhanh chóng.\n         3. Quá tải dung lượng bộ nhớ: Quy định các thành viên tiến hành nén file video nặng trước khi upload và định kỳ dọn dẹp các bản nháp cũ trên Drive."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s7",
+      "layout": "Split Dashboard",
+      "primaryTitle": "🎨 Bài 5 — Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung (Mục 5.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Ứng dụng mô hình học tập siêu nhỏ (Nano-learning) kết hợp đa công cụ trí tuệ nhân tạo tạo sinh để sản xuất học liệu nghe - nhìn ngắn hạn lôi cuốn trên các nền tảng mạng xã hội.",
+        "2. Tóm tắt quá trình thực hiện \n   • Giai đoạn 1 (Kịch bản - Google Gemini): Tạo câu lệnh nhập vai chuyên gia sư phạm để thiết kế kịch bản video TikTok 60 giây giải thích về Định luật II Newton (Vật lí 10). Thực hiện điều chỉnh câu lệnh yêu cầu AI lồng ghép ví dụ thực tế về việc đẩy một chiếc xe đẩy siêu thị trống và một chiếc xe đầy hàng để minh họa rõ mối quan hệ giữa khối lượng và gia tốc.\n   • Giai đoạn 2 (Hình ảnh - DALL-E 3 / Bing Image Creator): Phát lệnh thiết kế hình ảnh 3D mô phỏng xe đẩy siêu thị với các vector lực và vector gia tốc phát sáng. Do AI gặp \"ảo giác\" vẽ ngược chiều vector gia tốc, tôi đã dùng kỹ năng đồ họa đưa hình ảnh vào Canva để hiệu chỉnh chiều vector chính xác theo đúng bản chất vật lí học.\n   • Giai đoạn 3 (Hậu kỳ - CapCut): Sử dụng công cụ phụ đề tự động giúp rút ngắn thời gian làm việc từ 3 tiếng xuống còn 45 phút.",
+        "3. Sản phẩm & Minh chứng\n[IMAGE: /src/assets/images/regenerated_image_1780220256260.jpg]\n   • Đường liên kết video: [F=ma](https://byvn.net/36cR)\n   • Đường liên kết minh chứng: [Bài tập 2.5.4. Báo cáo sử dụng AI tạo sinh trong sáng tạo nội dung](https://byvn.net/3AZD)",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Video ngắn (Nano-learning) đánh trúng thói quen tiếp nhận thông tin của học sinh thế hệ số, giúp các em nhanh chóng nắm bắt các từ khóa cốt lõi của bài học.\n   • Bài học rút ra: Con người bắt buộc phải giữ vai trò kiểm chứng khoa học thường xuyên, liên tục trong các sản phẩm do AI tạo ra. Sự nguy hiểm của \"ảo giác AI\" trong các công thức hay vector vật lí có thể dẫn đến hệ lụy nghiêm trọng trong nhận thức của học sinh nếu giáo viên lơ là."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s8",
+      "layout": "Split Dashboard",
+      "primaryTitle": "⚖️ Bài 6 — Sử dụng AI có trách nhiệm trong học tập và nghiên cứu (Mục 6.4)",
+      "secondaryTitle": "",
+      "body": [
+        "1. Mục tiêu bài tập\n   • Thấu hiểu sâu sắc các chính sách, quy định pháp lý và liêm chính học thuật liên quan đến việc ứng dụng trí tuệ nhân tạo trong môi trường giáo dục đại học.\n   • Xây dựng tư duy phản biện cao và thiết lập bộ nguyên tắc đạo đức cá nhân nhằm sử dụng AI một cách văn minh, an toàn và có trách nhiệm.",
+        "2. Tóm tắt quá trình thực hiện\n   • Nghiên cứu chính sách: Tiến hành phân tích sâu các hướng dẫn về liêm chính học thuật trong kỷ nguyên số của Trường Đại học Sư phạm Hà Nội (HNUE). Nhà trường khuyến khích sinh viên sử dụng AI có định hướng để soạn giáo án hay thiết kế học liệu số tiến bộ (như video Nano-learning). Tuy nhiên, ranh giới đỏ nghiêm ngặt là AI không được phép thay thế tư duy độc lập và năng lực sư phạm cốt lõi; cấm tuyệt đối hành vi nộp sản phẩm do AI tạo sinh tạo ra 100% mà không có sự trích dẫn hay xử lý nguồn gốc.\n   • Đối chiếu so sánh: Lập bảng phân tích đối chiếu hệ thống quản lý của HNUE với Đại học RMIT Việt Nam nhằm tìm ra xu hướng chuyển dịch chung từ tư duy \"cấm đoán\" sang tư duy \"tích hợp có kiểm soát, đề cao tính minh bạch và quyền sở hữu trí tuệ\".",
+        "3. Sản phẩm & Minh chứng\n   • Bộ nguyên tắc đạo đức cá nhân về sử dụng AI có trách nhiệm gồm 6 điều cốt lõi:\n         1. Nguyên tắc “Kiểm chứng trước tiên”: Luôn xác minh lại các công thức, hằng số vật lí và dữ liệu do AI cung cấp bằng sách giáo khoa hoặc tài liệu chuẩn quốc gia.\n         2. Nguyên tắc “Sư phạm làm gốc”: AI chỉ là phương tiện minh họa; mục tiêu cuối cùng phải là sự tiến bộ của học sinh và giá trị nhân văn trong giáo dục.\n         3. Nguyên tắc “Minh bạch tuyệt đối”: Luôn ghi rõ mức độ sử dụng AI trong mọi sản phẩm học tập và truyền thông (ví dụ: “AI-assisted design”).\n         4. Nguyên tắc “Tư duy chủ động”: Chỉ sử dụng AI sau khi đã tự suy nghĩ và phác thảo ý tưởng cá nhân. AI là người phản biện, không phải người làm thay.\n         5. Nguyên tắc “Bảo mật dữ liệu”: Không đưa các thông tin nhạy cảm của nhà trường, đồng nghiệp hay học sinh lên các nền tảng AI công cộng để đảm bảo quyền riêng tư.\n         6. Nguyên tắc “Cập nhật liên tục”: Luôn cập nhật kiến thức về công nghệ AI mới để sử dụng chúng một cách thông minh và hiệu quả nhất.\n   • Infographic minh họa “Sử dụng AI có trách nhiệm trong học thuật”:\n[IMAGE: /src/assets/images/assets/infographic.png]\n   • Đường liên kết minh chứng: [Bài tập 4.6.4. Báo cáo sử dụng AI có trách nhiệm](https://byvn.net/9RmF)",
+        "4. Ý nghĩa sư phạm & Chiêm nghiệm cá nhân\n   • Ý nghĩa sư phạm: Sự lạm dụng và phụ thuộc quá mức vào công nghệ số sẽ làm suy giảm nghiêm trọng tư duy độc lập, năng lực tính toán sai số thực tế hay kỹ năng thiết kế thí nghiệm vật lí của người giáo viên. Nếu chỉ dựa vào mô phỏng ảo của AI, chúng ta sẽ đánh mất đi năng lực thực hành và sự nhạy bén trong xử lý tình huống lớp học.\n   • Bài học rút ra: Việc tuân thủ bộ nguyên tắc đạo đức cá nhân chính là tấm khiên bảo vệ uy tín học thuật của người giáo viên, giữ vững giá trị chân thực tối cao của ngành sư phạm trước làn sóng tự động hóa."
+      ],
+      "highlights": [],
+      "images": {}
+    },
+    {
+      "id": "s10",
+      "layout": "Split Dashboard",
+      "primaryTitle": "MỤC 3: TRANG TỔNG KẾT (REFLECTION)",
+      "secondaryTitle": "",
+      "body": [
+        "📝 Trải nghiệm & Cảm nhận cá nhân về quá trình thực hiện Portfolio\nHành trình thực hiện dự án Portfolio này là một bước chuyển dịch mang tính cách mạng đối với nhận thức sư phạm của bản thân em. Em nhận ra rằng công nghệ số không làm mờ đi vai trò của người thầy; ngược lại, nó còn giải phóng người thầy khỏi các tác vụ thủ công lặp đi lặp lại để tập trung vào giá trị cốt lõi: truyền cảm hứng và định hình tư duy phản biện cho học sinh. Từ một sinh viên còn bỡ ngỡ với các công cụ số, em đã biết cách làm chủ công nghệ, sử dụng AI để phục vụ cho những ý tưởng mới của mình một cách chủ động và có trách nhiệm thông qua xuyên suốt quá trình học tập học phần Nhập môn Công nghệ số và Trí tuệ nhân tạo này.",
+        "💡 Kiến thức & Kỹ năng quan trọng nhất đã tích lũy\n   • Kỹ năng thiết kế hệ thống dữ liệu: Tư duy tổ chức cây thư mục khoa học, thiết lập ma trận lập chỉ mục giúp tối ưu hóa hiệu suất chuẩn bị học liệu số.\n   • Kỹ năng cấu trúc hóa tư duy: Khả năng lập luận logic, chặt chẽ thông qua kỹ nghệ viết Prompt chuyên sâu áp dụng mô hình Role - Task - Context - Constraint - CoT.\n   • Năng lực quản trị thông tin: Sàng lọc, thanh lọc và làm chủ nguồn tài nguyên tri thức khoa học khổng lồ dựa trên công cụ thẩm định tiêu chuẩn quốc tế CRAAP test.\n   • Sáng tạo nội dung đa phương tiện: Làm chủ dây chuyền phối hợp đa công cụ AI để sản xuất học liệu Nano-learning nghe - nhìn chuyên nghiệp, bắt kịp xu hướng tiếp nhận thông tin của thế hệ học sinh Gen Z/Alpha.\n   • Tư duy thiết kế hệ thống và thẩm mỹ: Khả năng điều phối nhóm từ xa chuyên nghiệp, thiết kế cấu trúc dữ liệu khoa học, đồng thời xây dựng bố cục trực quan cho chính trang Portfolio này.",
+        "✨ Điểm tâm đắc & Thách thức đã vượt qua\n   • Điểm tâm đắc: Em đã tự tay thiết kế và sở hữu một không gian số mang đậm bản sắc cá nhân, khéo léo lồng ghép sở thích sáng tạo nội dung thị giác vào giao diện học tập. Và sau các bài học trong học phần, em đã biết cách biến AI thành một người cộng sự đắc lực để hiện thực hóa các ý tưởng sư phạm trực quan và sinh động của mình.\n   • Thách thức và cách khắc phục: Khó khăn lớn nhất khi xây dựng và cấu trúc Portfolio trực tiếp trên Google AI Studio là việc thiết lập hệ thống System Instructions cùng các tham số kỹ thuật để kiểm soát lỗi \"ảo giác\" của AI khi xử lý các ký hiệu vật lí và hiện tượng toán học phức tạp. Bằng cách kiên trì cấu trúc lại các câu lệnh chuỗi tư duy (Chain-of-Thought) trong không gian làm việc của AI Studio, kết hợp đối chiếu chéo với các tài liệu, giáo trình chuẩn, em đã tối ưu hóa được quy trình lưu trữ và tạo học liệu của mình đạt chất lượng tốt nhất.",
+        "🚀 Tầm nhìn dịch chuyển sư phạm trong tương lai \nLà một sinh viên Sư phạm Vật lí tại UEd-VNU trong kỷ nguyên số, em hướng tới việc làm chủ các công cụ hiện đại để tối ưu hóa hiệu suất dạy học và kích thích tư tư duy sáng tạo của thế hệ trẻ trong chương trình giáo dục phổ thông mới qua 3 hành động cốt lõi:\n   1. Tích hợp sâu sắc các giải pháp AI tạo sinh: Ứng dụng kỹ nghệ prompt nâng cao để thiết kế các kịch bản sư phạm phân hóa, biến những kiến thức khoa học trừu tượng thành các trải nghiệm trực quan, giúp học sinh chủ động tương tác và khám phá bài học.\n   2. Cách mạng hóa học liệu với mô hình Nano-learning: Phát triển hệ thống video bài giảng siêu nhỏ (dưới 60 giây) trực quan động trên các nền tảng mạng xã hội nhằm tối ưu hóa quỹ thời gian tự học và giải phóng tải nhận thức ngoại lai cho học sinh.\n   3. Vận hành mô hình giảng dạy thích ứng: Tận dụng năng lực phân tích dữ liệu của AI và các bài kiểm tra chẩn đoán có phân tích nhiễu để định vị chính xác lỗ hổng kiến thức, từ đó may đo lộ trình học tập riêng biệt cho từng đối tượng học sinh theo thời gian thực."
+      ],
+      "highlights": [],
+      "images": {}
+    }
+  ]
+}
