@@ -33,9 +33,13 @@ export default function Header({ activeSlide, slidesCount }: HeaderProps) {
               <a 
                 key={idx} 
                 href={`#${contentData.slides[idx].id}`}
-                className={`w-10 h-10 border-2 border-graphite rounded-full flex items-center justify-center transition-all duration-300 ${isActive ? 'bg-graphite text-white shadow-[3px_3px_0_var(--color-graphite)]' : 'bg-scrapbook text-graphite hover:bg-graphite/10'}`}
+                className={`group relative w-10 h-10 border-2 border-graphite rounded-full flex items-center justify-center transition-all duration-300 ${isActive ? 'bg-graphite text-white shadow-[3px_3px_0_var(--color-graphite)]' : 'bg-scrapbook text-graphite hover:bg-graphite/10'}`}
+                title={contentData.slides[idx].primaryTitle}
               >
                 <Icon className="w-4 h-4 md:w-5 md:h-5" strokeWidth={2.5} />
+                <span className="absolute top-12 left-1/2 -translate-x-1/2 px-2 py-1 bg-graphite text-white text-xs font-bold whitespace-nowrap rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow-md z-50">
+                  {contentData.slides[idx].primaryTitle}
+                </span>
               </a>
              )
           })}
