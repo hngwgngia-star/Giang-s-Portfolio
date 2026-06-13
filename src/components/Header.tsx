@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, Lightbulb, Book, ArrowRight, Settings, Video, Shield, Target, Award } from 'lucide-react';
+import contentData from '../data/contentData.json';
 
 const icons = [Star, Lightbulb, Book, ArrowRight, Settings, Video, Shield, Target, Award];
 
@@ -31,7 +32,7 @@ export default function Header({ activeSlide, slidesCount }: HeaderProps) {
             return (
               <a 
                 key={idx} 
-                href={`#s${idx + 1}`}
+                href={`#${contentData.slides[idx].id}`}
                 className={`w-10 h-10 border-2 border-graphite rounded-full flex items-center justify-center transition-all duration-300 ${isActive ? 'bg-graphite text-white shadow-[3px_3px_0_var(--color-graphite)]' : 'bg-scrapbook text-graphite hover:bg-graphite/10'}`}
               >
                 <Icon className="w-4 h-4 md:w-5 md:h-5" strokeWidth={2.5} />
